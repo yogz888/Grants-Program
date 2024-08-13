@@ -20,6 +20,10 @@
   font-family: SuisseIntl,sans-serif;
 }
 
+.hero {
+  background-image: url("/static/img/waves.png");
+}
+
 .hero__title {
   font-size: 4rem;
 }

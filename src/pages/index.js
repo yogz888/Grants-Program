@@ -28,8 +28,8 @@ function HomepageHeader() {
               style={{
                 marginLeft: "10px",
                 marginBottom: "5px",
-                backgroundColor: "rgb(0, 0, 0)",
-                color: "rgb(250, 250, 250)"
+                color: "rgb(255, 255, 255)",
+                background: "rgb(0, 0, 0, 0.9)",
               }}>
               Apply
             </Link>
@@ -38,7 +38,9 @@ function HomepageHeader() {
               to="./docs/office-hours"
               style={{
                 marginLeft: "10px",
-                marginBottom: "5px"
+                marginBottom: "5px",
+                background: "rgb(255, 255, 255, 0.9)",
+                borderColor: "rgb(92, 26, 124)"
               }}>
               Office Hours
             </Link>
@@ -48,6 +50,8 @@ function HomepageHeader() {
               style={{
                 marginLeft: "10px",
                 marginBottom: "5px",
+                background: "rgb(255, 255, 255, 0.9)",
+                borderColor: "rgb(92, 26, 124)"
               }}>
               Browse RFPs
             </Link>
@@ -57,7 +61,8 @@ function HomepageHeader() {
               style={{
                 marginLeft: "10px",
                 marginBottom: "5px",
-                backgroundColor: "rgb(250, 250, 250)"
+                background: "rgb(255, 255, 255, 0.9)",
+                borderColor: "rgb(92, 26, 124)"
               }}>
               Decentralized Futures ↗
             </Link>
@@ -67,7 +72,8 @@ function HomepageHeader() {
               style={{
                 marginLeft: "10px",
                 marginBottom: "5px",
-                backgroundColor: "rgb(250, 250, 250)"
+                background: "rgb(255, 255, 255, 0.9)",
+                borderColor: "rgb(92, 26, 124)"
               }}>
               JAM Prize ↗
             </Link>
